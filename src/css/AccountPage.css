@@ -1,0 +1,117 @@
+.account-page {
+  min-height: 100vh;
+  padding: 1.5rem 5vw 4rem;
+  background:
+    radial-gradient(ellipse at 50% 20%, rgba(80, 31, 48, 0.22), transparent 58%),
+    #0b0b0b;
+}
+
+.account-header {
+  min-height: 3rem;
+}
+
+.account-brand {
+  color: #e50914;
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: -0.07em;
+}
+
+.account-brand span {
+  color: #fff;
+}
+
+.account-card {
+  width: min(100%, 440px);
+  margin: clamp(2.5rem, 8vh, 5rem) auto 0;
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  border: 1px solid #303030;
+  border-radius: 14px;
+  background: rgba(18, 18, 18, 0.96);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
+
+.account-card h1 {
+  margin-top: 0.65rem;
+  font-size: clamp(1.8rem, 5vw, 2.3rem);
+}
+
+.account-description {
+  margin-top: 0.7rem;
+  color: #aaa;
+  line-height: 1.55;
+}
+
+.account-form {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1.75rem;
+}
+
+.account-form label {
+  margin-top: 0.4rem;
+  color: #e5e5e5;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.account-form input {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border: 1px solid #454545;
+  border-radius: 6px;
+  background: #0c0c0c;
+  color: #fff;
+}
+
+.account-form input:focus-visible {
+  border-color: #e50914;
+  outline: 2px solid rgba(229, 9, 20, 0.45);
+  outline-offset: 1px;
+}
+
+.password-hint {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.account-error {
+  color: #ff858a;
+  font-size: 0.9rem;
+}
+
+.account-submit {
+  margin-top: 0.7rem;
+  padding: 0.85rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  background: #e50914;
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.account-submit:hover:not(:disabled) {
+  background: #f6121d;
+}
+
+.account-submit:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.account-switch {
+  margin-top: 1.4rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.account-switch a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.account-switch a:hover {
+  text-decoration: underline;
+}
